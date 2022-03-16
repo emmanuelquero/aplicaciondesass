@@ -1,0 +1,45 @@
+$color_fuente: white;
+$color_fuente2: black;
+$fondo_primario: rgb(20,62,124);
+$fondo_secundario: beige;
+$fondo_terciario: blue;
+$cuarto_fondo:black;
+
+.barra {
+    color:$color_fuente; 
+    :hover {
+        color:$color_fuente2;
+    }
+}
+.precios {
+    color:$color_fuente2;
+    background-color: $fondo_terciario;
+}
+.tituloprecio {
+    color:$color_fuente2;
+}
+.descripcion {
+    background-color:$fondo_primario;
+    color: $color_fuente2;
+}
+.titulo {
+    color:$color_fuente;
+    background-color: $fondo_secundario; 
+}
+.footer {
+    color:$color_fuente; 
+    background-color: $cuarto_fondo;
+}
+.formulario {
+    background-color: $fondo_secundario;
+
+}
+.titulosfotos {
+    color:$color_fuente2;
+    background-image: $fondo_terciario;
+}
+.div {
+    a {
+        color: $color_fuente;
+    }
+}
